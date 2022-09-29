@@ -1,4 +1,4 @@
-// Na tipagem explícita nós especificamos o qual será o tipo de cada variável.
+// Na tipagem explícita nós especificamos qual será o tipo de cada variável.
 
 let user: string;
 let ticket: number;
