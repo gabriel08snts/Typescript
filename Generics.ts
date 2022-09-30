@@ -23,3 +23,6 @@ let newState = useState();
 newState.get();
 newState.set("João");
 newState.set(123);
+
+/* Os generics funcionam de um aforma que, a partir do momento que eu declarar qual será o tipo daquela variável
+ela só aceitará valores daquele tipo de agora em diante. */
