@@ -1,4 +1,5 @@
-/* Ao declarar uma variável no TypeScript o seu tipo por padrão será any. Mas devemos tomar um certo cuidado com essa tipagem porque ela pode ser perigosa ao decorrer do nosso projeto, não é muito recomendada a sua utilização. */
+/* Ao declarar uma variável no TypeScript o seu tipo por padrão será any. Mas devemos tomar um certo cuidado com essa tipagem 
+porque ela pode ser perigosa ao decorrer do nosso projeto, não é muito recomendada a sua utilização. */
 
 // Exemplo:
 
