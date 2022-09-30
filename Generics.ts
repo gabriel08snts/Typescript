@@ -5,8 +5,8 @@ nós declaramos ele dessa forma <T> (podendo ser utilizado qualquer outra letra,
 
 // Exemplo de um trecho de código utilizando generics:
 
-function useState<T>() {
-    let state: T;
+function useState<T extends string | number = boolean>() { // Nessa linha o Generic pode ser definido a primeira vez como um string ou um number, mas caso nenhum deles
+    let state: T;                                          // seja escolhido o padrão será aquele após o sinal de =, no caso será boolean.
 
     function get(){
         return state;
@@ -19,7 +19,7 @@ function useState<T>() {
     return { get, set}
 }
 
-let newState = useState();
+let newState = useState<string>();
 newState.get();
 newState.set("João");
 newState.set(123);
