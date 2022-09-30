@@ -10,3 +10,4 @@ info = true;
 info = 10.50;
 
 // Com o tipo any a variável aceitará qualquer valor.
+
