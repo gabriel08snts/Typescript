@@ -1,2 +1,2 @@
 # Typescript
-Meus estudos em typescript.
+My studies in typescript.
